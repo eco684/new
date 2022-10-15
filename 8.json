@@ -25,7 +25,8 @@
 {"key":"小蘋果","name":"小蘋果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"KanSJ_spider","name":"看視界","api":"csp_KanSJ","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":""},
 {"key":"csp_Cokemv","name":"Cokemv","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_劇荒","name":"劇荒","type":3,"api":"csp_Juhuang","searchable":1,"quickSearch":1,"filterable":1},"key": "csp_xpath_sigu","name": "思古(直鏈)","type": 3,"api": "csp_XPathMac","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://github.com/eco684/tv-tv/raw/main/srcbrg/qdgyy/yfghu7.json"}
+{"key":"csp_劇荒","name":"劇荒","type":3,"api":"csp_Juhuang","searchable":1,"quickSearch":1,"filterable":1},
+{"key": "csp_xpath_sigu","name": "思古(直鏈)","type": 3,"api": "csp_XPathMac","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://github.com/eco684/tv-tv/raw/main/srcbrg/qdgyy/yfghu7.json"}
    ],
   "parses": [
     {
