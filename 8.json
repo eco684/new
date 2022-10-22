@@ -1,5 +1,5 @@
 {
-  "spider": "https://github.com/eco684/new/raw/main/0928.jar",
+  "spider": "https://github.com/eco684/new/raw/main/1007.jar",
   "sites": [  
 {"key":"csp_Nbys","name":"泥巴(SP)","type":3,"api":"csp_Nbys","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Bd","name":"嗶嘀影視(SP)","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},
