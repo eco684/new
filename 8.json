@@ -5,7 +5,7 @@
 {"key":"csp_Bd","name":"嗶嘀影視","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_CZSPP","name":"廠長(SP)","type":3,"api":"csp_CZSPP","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"3EDY","name":"3EDY","type":3,"api":"csp_EEEDY","searchable":1,"quickSearch":1,"filterable":0},
-{"key":"csp_XYQHiker_23p","name":"23(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://pastebin.com/raw/iGaDvUrt"},
+{"key":"csp_XYQHiker_pp23","name":"pp23(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://pastebin.com/raw/iGaDvUrt"},
 {"key":"csp_XYQHiker_23影视","name":"23影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/eco684/-DOC/raw/main/23影院.json"},
 {"key":"csp_XYQHiker_auete","name":"auete(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/eco684/-DOC/raw/main/auete.json"},
 {"key":"csp_XYQHiker_RP影視","name":"RP影視(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/eco684/-DOC/raw/main/RP影視.json"},
