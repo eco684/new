@@ -11,6 +11,8 @@
 {"key":"csp_xBPQ_饭团","name":"飯團[XBPQ]","type":3,"api":"csp_XBPQ","playerType":"1","ext":"https://github.com/eco684/gao/raw/master/xBPQ/饭团.json"},
 {"key": "csp_XYQHiker_极客影院","name":"極客(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/gao/raw/master/XYQHiker/极客影院.json","jar": "https://github.com/eco684/new/raw/main/230422.jar"},
 {"key": "csp_XYQHiker_红领巾影院","name":"紅領巾(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/gao/raw/master/XYQHiker/红领巾影院.json", "jar": "https://github.com/eco684/new/raw/main/230422.jar"},
+{"key": "csp_XYQHiker_電影港","name":"電影港(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/gao/raw/master/XYQHiker/电影港磁力.json","jar": "https://github.com/eco684/new/raw/main/230422.jar"},
+{"key": "csp_XYQHiker_voflix","name":"voflix(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/gao/raw/master/XYQHiker/voflix HD.json", "jar": "https://github.com/eco684/new/raw/main/230422.jar"},
 {"key":"csp_xBPQ_臭蛋","name":"臭蛋蛋[XBPQ]","type":3,"api":"csp_XBPQ","ext":"https://github.com/eco684/gao/raw/master/xBPQ/蛋蛋.json"}
    ],
   "parses": [
