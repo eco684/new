@@ -1,7 +1,7 @@
 {
   "spider": "https://github.com/eco684/new/raw/main/230422.jar",
   "sites": [  
-{"key":"csp_Nbys","name":"泥巴(SP)","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Nbys","name":"泥巴(SP)","type":3,"api":"csp_Nbys","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://github.com/eco684/new/raw/main/Nbys.jar"},
 {"key":"csp_trj","name": "唐人街(SP)","type": 3,"api": "csp_Tangrenjie","searchable": 1,"quickSearch": 1,"filterable": 1},   
 {"key":"csp_Czsapp","name":"廠長(SP)","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_XYQBiu_Auete影视","name":"Auete影视(XYQ)","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/gao/raw/master/XYQBiu/Auete影视.json"},
