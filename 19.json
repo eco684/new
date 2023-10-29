@@ -1,12 +1,11 @@
 {
   "spider": "https://github.com/eco684/new/raw/main/19.jar",
   "sites": [  
-{"key":"csp_XYQHiker_memojav","name":"memojav(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://pastebin.com/raw/VRJUxBpY"},
-{ "key": "Jable", "name": "Jable(sp)", "type": 3, "api": "csp_Jable","searchable":1,"quickSearch":1,"filterable":1},
-{ "key": "Doll", "name": "玩偶(sp)", "type": 3, "api": "csp_Doll","searchable":1,"quickSearch":1,"filterable":1},
-{ "key": "18AV", "name": "18AV(sp)", "type": 3, "api": "csp_Eighteen","searchable":1,"quickSearch":1,"filterable":1},
-{ "key": "Miss", "name": "Miss(sp)", "type": 3, "api": "csp_Miss","searchable":1,"quickSearch":1,"filterable":1},
-{ "key": "Hanime", "name": "Hanime(sp)", "type": 3, "api": "csp_Hanime","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"玩偶","name":"玩偶","type":3,"api":"csp_Doll","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.309}},
+{"key":"18AV","name":"18AV","type":3,"api":"csp_Eighteen","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.485}},
+{"key":"Jable","name":"Jable","type":3,"api":"csp_Jable","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.77}},
+{"key":"MissAV","name":"MissAV","type":3,"api":"csp_Miss","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.78}},
+{"key":"Hanime","name":"Hanime","type":3,"api":"csp_Hanime","searchable":1,"recordable":0,"style":{"type":"rect","ratio":0.68}},
 {"key":"csp_xpath_av01","name":"av01tv(xp)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/eco684/tv-tv/raw/main/av01.json"}],
   "parses": [
     {
