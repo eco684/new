@@ -8,7 +8,6 @@
 { "key": "Miss", "name": "Miss(sp)", "type": 3, "api": "csp_Miss","searchable":1,"quickSearch":1,"filterable":1},
 { "key": "Hanime", "name": "Hanime(sp)", "type": 3, "api": "csp_Hanime","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_xpath_av01","name":"av01tv(xp)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/eco684/tv-tv/raw/main/av01.json"}],
-   ],
   "parses": [
     {
        "name": "Json並發",
