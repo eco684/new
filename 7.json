@@ -1,245 +1,33 @@
 {
-    "spider":"https://github.com/eco684/new/raw/main/250202.jar",
+    "spider":"https://github.com/eco684/new/raw/main/饭太硬.jar",
     "sites": [
-        {
-            "key": "豆瓣",
-            "name": "豆瓣｜首页",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        },
-        {
-            "key": "预告",
-            "name": "新片｜预告",
-            "type": 3,
-            "api": "csp_YGP",
-            "searchable": 0
-        },
-        {
-            "key": "本地",
-            "name": "本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
-        },
-        {
-            "key": "配置中心",
-            "name": "配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-            {
-      "key": "短剧网",
-      "name": "📺｜短剧网",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/短劇網.json"
-    },
-            {
-              "key": "csp_奇优影院",
-              "name": "🎥｜奇優",
-              "type": 3,
-              "api": "csp_XBPQ",
-              "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-              "searchable": 1,
-              "quickSearch": 1,
-              "filterable": 1,
-              "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奇优影院.json"
-        },
-            {
-      "key": "csp_永乐视频",
-      "name": "🎥｜永樂",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/永樂視頻.json"
-    },
-                {
-        "key": "csp_七味",
-        "name": "🥇｜追劇神器",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "規則名": "七味",
-          "規則作者": "叔叔",
-          "規則日期": "114.01.23",
-          "主页url": "https://www.qnmp4.com/",
-          "分类url":"https://www.qnmp4.com/ms/{cateId}-{area}-{by}------{catePg}---{year}.html",
-          "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
-          "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&英国&法国&德国&印度&丹麦&瑞典&荷兰&加拿大&俄罗斯&意大利&比利时&西班牙&澳大利亚&其他",
-          "二次截取": "pic-list clearfix\">&&</ul>",
-          "数组": "<div class=\"li-img&&</a>",
-          "图片": "src=\"&&\"",
-          "标题": "title=\"&&\"",
-          "副标题": "</i>&&</span>",
-          "链接": "href=\"&&\"",
-          "影片年代": "year\">(&&)</span>",
-          "影片地区": "地区：</span>&&</div>",
-          "影片类型": "类型：</span>&&</div>",
-          "状态": "otherbox\">*<em>&&</em>",
-          "导演": "导演：</span>&&</div>",
-          "主演": "主演：</span>&&</div>",
-          "简介": "<p class=\"sqjj_a*>&&<span",
-          "线路二次截取": "<ul class=\"py-tabs&&</ul>",
-          "线路数组": "<li&&</li>",
-          "线路标题": ">&&<div",
-          "播放数组": "<ul class=\"player&&</ul>",
-          "播放列表": "<li>&&</li>",
-          "播放标题": ">&&</a>",
-          "播放链接": "href=\"&&\"",
-          "跳转播放链接": "urlDecode(var player_*\"url\":\"&&\")",
-          "搜索url": "/index.php/ajax/suggest?mid=1&wd={wd}&page={pg}&limit=30",
-          "搜索模式": "1",
-          "搜索二次截取": "",
-          "搜索数组": "list",
-          "搜索标题": "name",
-          "搜索图片": "pic",
-          "搜索副标题": "en",
-          "搜索链接": "'/mv/'+id+'.html'"
-          }
-        },
-            {
-        "key": "csp_真不卡",
-        "name": "🥇｜真不卡",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "規則名": "真不卡",
-          "規則作者": "叔叔",
-          "規則日期": "114.01.16",
-          "主页url": "https://zbkyyy.com/",
-          "搜索url": "https://zbkyyy.com/qyvodsearch/-------------.html?wd={wd}",
-          "分类url":"https://www.zbkyyy.com/qyvodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-          "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
-          "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国||大陆&韩国&香港&台湾&日本&美国&泰国&英国||大陆&港台&日韩&欧美||大陆&日本&欧美&其他"
-            }
-    },
-        {
-      "key": "py_AiGuaTV",
-      "name": "🥇｜爱瓜TV｜沐辰",
-      "type": 4,
-      "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 1
-    },
-        {
-      "key": "py_UpFuHn",
-      "name": "🥇｜Hi视频｜沐辰",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=UpFuHn",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 1
-    },
-            {
-            "key": "小苹果",
-            "name": "小苹果｜SP",
-            "type": 3,
-            "api": "csp_Xpg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
-            "key": "糯米",
-            "name": "糯米｜SP",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
-            "key": "文才",
-            "name": "文才｜SP",
-            "type": 3,
-            "api": "csp_Jpys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
-            "key": "立播",
-            "name": "立播｜SP",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://www.libvio.cc",
-                "danmu": true
-            }
-        },
-        {
-            "key": "骚火影视",
-            "name": "骚火｜SP",
-            "type": 3,
-            "api": "csp_SaoHuo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-            {
-        "key": "T4-安博",
-        "name": "🥇｜安博",
-        "type": 4,
-        "api": "https://tang.hz.cz/power/ub18?token=647c28ca",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "changeable": 1
-    },
-            {
-            "key": "真心影视",
-            "name": "真心｜影视",
-            "type": 3,
-            "api": "csp_WebGZ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {"key":"csp_mgtv","name":"美劇網(XYQHiker)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/new/raw/main/mgtv.json", "jar": "https://github.com/eco684/new/raw/main/230422.jar"},
-{"key":"csp_xBPQ_gyf","name":"流光(XBPQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/eco684/new/raw/main/gyf.json", "jar": "https://github.com/eco684/new/raw/main/xyqxbpq.jar"},
-{"key":"csp_XBPQ_xiaoheimi","name":"小宝影院(XBPQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/gbridge888/maotv/main/xiaoheimi-xBPQ.json"},  	
-{"key":"csp_XBPQ_Auete","name":"Auete影视(XBPQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/new/raw/main/AUETE.json"}       
+{"key":"alllive","name":"📽️一直播┃直播","type":3,"api":"csp_AllliveGuard","playerType":2,"searchable":0,"quickSearch":0,"changeable":0},
+{"key":"原创","name":"☀原创┃不卡","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"苹果","name":"🍎苹果┃不卡","type":3,"api":"csp_LiteAppleGuard","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"厂长","name":"📔厂长┃不卡","type":3,"api":"csp_NewCzGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.czzyvideo.com/"},
+{"key":"糯米","name":"🍓糯米┃秒播","type":3,"api":"csp_NmyswvGuard","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"白白","name":"🐟白白┃秒播","type":3,"api":"csp_SbaibaiGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"神车","name":"🚎神车┃秒播","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjPcVZY48PN/RIZ5QqOrsp1OZsTS9wQSSpQpK6jnh0fUMKIu22IxR6Z7/exDifuKH+Agjg9"},
+{"key":"Lib","name":"🌟立播┃秒播","type":3,"api":"csp_LibvioGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
+{"key":"zxzj","name":"🍊在线┃秒播","type":3,"api":"csp_ZxzjGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
+{"key":"比特","name":"🍄比特┃秒播","type":3,"api":"csp_BttwooGuard","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"文采","name":"💮文采┃秒播","type":3,"api":"csp_JpysGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"低端","name":"⏮️低端┃外剧","type":3,"api":"csp_DdrkGuard","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"木星","name":"🌞木星┃多线","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjPcVZY48PN/RIZ5QqOrsplZNERApoHSmxZ77D7wAtcAsqZuXTQzUHW+quzHG+7cXaG3SBwzihuA2NlCJpscUJASIGSmRiXKW5NhipHle83SfO6IA=="},
+{"key":"兄弟","name":"🍊兄弟┃多线","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"filterable":1,"ext":"FbjDcUxPqpfNr0QF4QvE6sExbdBHCJkQSzBQt+vmhxkUAtbepC6RjQjA6r70U2OrZ3mJyX4hh2AsXS8mTp9pKB8="},
+{"key":"热播","name":"📺热播┃多线","type":3,"api":"csp_AppTTGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
+{"key":"萌米","name":"👀萌米┃多线","type":3,"api":"csp_AppTTGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I2bux0Y8Qze6tVlMg=="},
+{"key":"欢视","name":"👓欢视┃多线","type":3,"api":"csp_AppTTGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B+Qsa7gqa+pU="},
+{"key":"奥特","name":"🏝奥特┃多线","type":3,"api":"csp_AueteGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.com/"},
+{"key":"贱贱","name":"🐭荐片┃P2P","type":3,"api":"csp_JPJGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
+{"key":"新6V","name":"🧲新6V┃磁力","type":3,"api":"csp_SixVGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":"https://www.xb6v.com/"},
+{"key":"Dm84","name":"🚌巴士┃动漫","type":3,"api":"csp_Dm84Guard","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"Ysj","name":"🎀异界┃动漫","type":3,"api":"csp_YsjGuard","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"Anime1","name":"🐾日本┃动漫","type":3,"api":"csp_Anime1Guard","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"csp_mgtv","name":"美劇網(XYQHiker)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/new/raw/main/mgtv.json","jar": "https://github.com/eco684/new/raw/main/250202.jar"},
+{"key":"csp_xBPQ_gyf","name":"流光(XBPQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/eco684/new/raw/main/gyf.json","jar": "https://github.com/eco684/new/raw/main/250202.jar"},
+{"key":"csp_XBPQ_xiaoheimi","name":"小宝影院(XBPQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/gbridge888/maotv/main/xiaoheimi-xBPQ.json","jar": "https://github.com/eco684/new/raw/main/250202.jar"}, 	
+{"key":"csp_XBPQ_Auete","name":"Auete影视(XBPQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/eco684/new/raw/main/AUETE.json","jar": "https://github.com/eco684/new/raw/main/250202.jar"}       
     ],
     "parses": [
         {
